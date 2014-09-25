@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Elements</title>
+  <meta name="author" content="Scot Matson">
+
+</head>
+
+ <body onload="draw();">
+  <section>
+    <header>
+      <h2>Introduction to SVG</h2>
+    </header>
+
+    <article>
+      <p>SVG stands for scalable vector graphics and is somewhat similar to the HTML canvas element in that it is used to draw 2D graphics, although, while canvas creates a box to display JavaScript code pixel by pixel and is forgotten by the browser, SVG is part of the DOM and is remembered as an object. SVG images are created using XML and is best suited for large rendering areas. While SVG may not be coded using JavaScript, it does support the JS event handlers thus allowing a higher level of functionality.</p>
+
+      <aside>
+        <p>Here is an example of SVG code being used to create a number of different shapes. You can view the source code and see how the numerical variations are used to change the degree of each angle.</p>
+
+        <?xml version="1.0" standalone="no"?>
+        <svg width="200" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg"> 
+        <rect x="10" y="10" width="30" height="30" stroke="black" fill="transparent" stroke-width="5"/>
+        <rect x="60" y="10" rx="10" ry="10" width="30" height="30" stroke="black" fill="transparent" stroke-width="5"/> 
+        <circle cx="25" cy="75" r="20" stroke="red" fill="transparent" stroke-width="5"/>
+        <ellipse cx="75" cy="75" rx="20" ry="5" stroke="red" fill="transparent" stroke-width="5"/> 
+        <line x1="10" x2="50" y1="110" y2="150" stroke="orange" fill="transparent" stroke-width="5"/>
+        <polyline points="60 110 65 120 70 115 75 130 80 125 85 140 90 135 95 150 100 145" stroke="orange" fill="transparent" stroke-width="5"/>
+        <polygon points="50 160 55 180 70 180 60 190 65 205 50 195 35 205 40 190 30 180 45 180" stroke="green" fill="transparent" stroke-width="5"/>
+        <path d="M20,230 Q40,205 50,230 T90,230" fill="none" stroke="blue" stroke-width="5"/>
+        </svg>
+      </aside>
+      
+      <h3>Attributes</h3>
+      <ul>
+        <li><h4>Coordinates</h4></li>
+        <p>Uses X, and Y, to specify location</p>
+        <li><h4>Width</h4></li>
+        <p>Indicates the pidth of the object</p>
+        <li><h4>Height</h4></li>
+        <p>Indicates the height of the object</p>
+        <li><h4>Fill</h4></li>
+        <p>Fills the color inside the shape being drawn</p>
+        <li><h4>Stroke</h4></li>
+        <p>This is the border color for the shape.</p>
+        <li><h4>Stroke-Width</h4></li>
+        <p>This is the width of the border of the shape</p>
+        <li><h4><a href="https://developer.mozilla.org/en-US/docs/SVG/Attribute" target="_blank">The Complete List</a></h4></li>
+        <p>Since SVG is heavily dependent on attributes, I have only listed the most commonly used... this link will show you the rest.</p>
+
+      </ul>
+      
+      <h3>Video</h3>
+      <iframe width="560" height="315" src="http://www.youtube.com/embed/Shl5gWAd75g" frameborder="0" allowfullscreen></iframe>
+      
+      <h3>Additional Research</h3>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/SVG/Tutorial" target="_blank">Mozilla SVG Tutorial</a></li>
+          <li><a href="http://www.w3schools.com/html/html5_svg.asp" target="_blank">W3C</a></li>
+        </ul>
+    </article>
+  </section>
+
+ </body>
+</html>

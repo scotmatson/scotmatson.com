@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8" type="text/html">
+	<title>Lynda.com | CIT 85 Tutorial</title>
+
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		width: 70%;
+		min-width: 600px;
+		margin: auto;
+		font-family: sans-serif;
+		background-color: #BCF5A9;
+	}
+	#content {
+		padding: 0px 10px;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+		background-color: #fff;
+	}
+	#banner {
+		text-align: center;
+		margin: 35px 0px 15px;
+	}
+	nav {
+		margin-top: 5px;
+	}
+	nav a {
+		text-decoration: none;
+		letter-spacing: -1px;
+		margin-right: 5px;
+	}
+	a:link {
+		color: #0066CC;
+	}
+	a:visited {
+		color: #0000AA;
+	}
+	a:hover {
+		text-decoration: underline;
+		background-color: #BCF5A9;
+		color: black;
+	}
+	a:active {
+		text-shadow: 0px 0px 2px #000;
+	}
+	.newSubject {
+		margin: 5px 0px;
+	}
+	section h1 {
+		text-decoration: underline;
+		font-size: 1.7em;
+	}
+	article h2 {
+		font-size: 1.3em;
+		margin-top: 5px;
+	}
+	footer {
+		margin-top: 5px;
+		text-align: right;
+		font-size: 0.9em;
+	}
+	#page > footer {
+		text-align: center;
+	}
+	li {
+		margin-left: 25px;
+	}
+	</style>
+</head>
+<body>
+<div id="page">
+	<header id="banner">
+		<h1>Mobile Website Design &amp; Development Fundamentals</h1>
+		<nav>
+			Page 1<span>|</span>
+			<a href="http://invsncloud.com.166-78-91-1.mdgnetworks.com/lectures/week14lecture12.html">Page 2<span>|</span>
+			<a href="invsncloud.com.166-78-91-1.mdgnetworks.com/lectures/week15lecture13.html">Page 3</a><span>|</span>
+			<a href="http://invsncloud.com.166-78-91-1.mdgnetworks.com/lectures/week16lecture14.html">Page 4</a>
+			<br>
+			<a href="#introduction">Introduction</a><span>|</span>
+			<a href="#understandingthemobileweb">Understanding the Mobile Web</a><span>|</span>
+			<a href="#mobilewebdevelopmentguidelines">Mobile Web Development Guidelines</a><!--<span>|</span>
+			<a href="#settingupadevelopmentenvironment">Setting Up a Development Environment</a><span>|</span>
+			<a href="#adaptingdesktopsitesformobileservices">Adapting Desktop Sites for Mobile Services</a><span>|</span>
+			<a href="#creatingmobile-optimizedpages">Creating Mobile-Optimized Pages</a><span>|</span>
+			<a href="#understandingmobilebrowsercapabilities">Understanding Mobile Browser Capabilities</a><span>|</span>
+			<a href="#puttingitallintopractice">Putting It All into Practice</a><span>|</span>
+			<a href="#conclusion">Conclusion</a>-->
+		</nav>
+	</header><!--id="banner"-->
+	<hr>
+	<div id="content">
+		<section class="newSubject">
+			<header>
+				<h1 id="#introduction">Introduction</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Welcome</h2>
+				</header>
+				<p>Course overview presented by Joe Marini. Topics include desktop vs. mobile web sites, geolocation, multi-platform optimization, and concludes with a hands on application.</p>
+			</article>
+			<article>
+				<header>
+				<h2>Using the exercise files</h2>
+				</header>
+				<p>Joe discusses how the exercise files will be used during this course and also who may access them.</p>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Introduction-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="#understandingthemobileweb">Understanding the Mobile Web</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Understanding the mobile context</h2>
+				</header>
+				<p>Mobile web development is not just about the platform itself but also how and when the technologies are implemented. This requires developers to take new variables into consideration such as location of use, environmental factors, and activities occurring doing use. When form factors are being considered however it is important to note the differences in screen size and what input devices are being implemented by the user.</p>
+
+				<p>When designing for a mobile enviroment you can ask yourself a number of questions to ease the process.</p>
+				<ul>
+					<li>Who is using the site</li>
+					<li>What are users doing when they access the site</li> 
+					<li>Where is the site being acccessed from</li>
+					<li>How is the user accessing the site</li>
+					<li>When is the site being accessed</li>
+					<li>Why is the user accessing the web site</li>
+				</ul>
+			</article>
+			<article>
+				<header>
+					<h2>A survey of mobile sites</h2>
+				</header>
+				<ul>
+					<li>Twitter: Well defined links, consistent use of fonts, minimal use of graphics, simple and clean design.</li>
+					<li>Yahoo: Optimized navigation, consistent use of fonts, well defined links and search utilities.</li>
+					<li>eBay: Minimal use of graphics, clean layout, consistent use of fonts, clearly defined navigational links and search utilities, optimized for vertical scrolling</li>
+					<li>CNN: Optimized for vertical scrolling, clean layout, consistent use of fonts, minimal use of graphics, built-in innate platform select list control</li>
+					<li>Wikipedia: Minimal use of graphics, limited use of color, clearly defined navigational features, optimized for vertical scrolling, optimized for reading and navigation</li>
+					<li>Ars Technica: Clearly defined icon navigation, clearly defined header and summary article presentation, optimized vertical scrolling</li>
+
+					<p>Discussion ends with a presentation of web sites on larger screened tablets. Example used shows the importance of platform optimization as excessive white space is present creating a poor use of real estate.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Targeting mobile browsers</h2>
+				</header>
+				<p>Understanding the rendering engines and the platforms which use them. Current technologies offer various levels of support across the available platforms. Different approaches must be used to accomodate the most widely used browser application and making web sites available for antiquated versions as well. Rather than targetting individual browsers the author recommends grouping the browsers into various classes based upon their capabilities and designing sites to meet their needs.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Previewing a complete mobile site</h2>
+				</header>
+				<p>Overview of the Explore California website functionality. Three variations have been designed which one can view appropriately using a desktop interface, tablet, or mobile phone. On the desktop by resizing the browser window it is easy to observe the changes. The site becomes optimized for tablets around a width of 800 pixels and for mobile phones around a width of 480 pixels. The layout stays consistent, fluid, and functional.</p>
+			</article>
+			<footer>
+				<a href="#banner">Return so site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Understanding the Mobile Web-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="#mobilewebdevelopmentguidelines">Mobile Web Development Guidelines</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Designing for one web</h2>
+				</header>
+				<p>By following a simple set of guidelines and with some careful planning, designing web sites which function properly with older technology, current technology, and future technology should be easy. These guidelines should be utilized to help accomplish this task: keeping content separate from style sheets and script files, avoid platform specific mark-up, avoid in-line styles and in-line JavaScript statements, pick a baseline of functionality, implement progressive enhancement.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Using well-defined web standards</h2>
+				</header>
+				<p>Adhering to baseline web standards and proven specifications such as XHTML 1.0, HTML5, and CSS3 help optimize the accessibility and functionality of your web site. For more advanced technology, provide fallback support for browsers with limited capibilities. As much as possible, rely on client-side scripting over server-side scripting and implement proven JavaScript libraries such as Modernizer or jQuery to help improve the usability or your site. Server-side scripting may be used for detecting the mobile platform in use but it is considered bad practice to implement browser sniffing. Furthermore, many new features now exist such as media optimization, local storage, and geocaching which enhance the user experience.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Designing mobile-friendly pages</h2>
+				</header>
+				<p>When designing mobile sites, consider how the user will interact with the site. It is best to design for the finger rather than a styus as the practices used for stylus design often is not compatible with the functionality provided by the user a touch interface. Typically 40-80 pixels need be alotted for clickable targets. Pages should be optimized for vertical scrolling as most mobile devices are utilized with a vertical dominant interface. Certain technologies should be avoided completely on mobile devices, these include framesets, tables, image maps, and plug-in dependency. </p>
+			</article>
+			<article>
+				<header>
+					<h2>Being crisp, clean, and succinct</h2>
+				</header>
+				<p>Certain best practices should be followed to simplify site designs and focus on content. Using fewer colors and font faces will enhance readability. Avoiding excessive graphics and unnecessary interactivity which tend not add any level of interactivity, this also includes background images which decrease readability and rendering capabilities. Images should be optimized to accomodate various resolutions and judicious use of white space to enhance readability and navigation is encouraged. Providing a link to the desktop version of a web site gives users access to services which may not have been possible to implement for a mobile site.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Minimizing input where possible</h2>
+				</header>
+				<p>Due to the interface used in mobile browsing, it is important to properly plan site design to minimize any potential disruptions in the user experience. One point of focus is sites which require user data such as financial institutes, travel agencies, or eCommerce. The more fields a user must manually fill out the less likely it will be for them to continue to use that platform interface. By making use of drop down menues, default values, and DOM storage, you can limit the amount of input required by the user and increase the usability of your site. Utilizing mobile capabilities such as geolocation services and datetime can greatly minimize user input and enhance the overall experience.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Focusing on the core scenarios</h2>
+				</header>
+				<p>When planning to design a mobile site, first consider just a few things that clearly define what your site is used for, this will guide the development process. Next, attempt to focus on the perspecive of how a new user will navigate the site, you want to ensure that the services most expected to be utilized in this context are clearly defined and accessible by all users. Realizing the limitations of the mobile platform and not attempting to important every feature of the desktop platform will give a more natural flow to the mobile site and help aid in a more consistent and enjoyable user experience.</p>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Mobile Web Development Guidelines-->
+<!--
+		<section class="newSubject">
+			<header>
+				<h1 id=""></h1>
+			</header>
+			<p>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+				<p></p>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Formatting Page Content-->
+<!--
+		<section class="newSubject">
+			<header>
+				<h1 id=""></h1>
+			</header>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Creating Links-->
+<!--
+		<section class="newSubject">
+			<header>
+				<h1 id=""></h1>
+			</header>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Creating Links-->
+<!--
+		<section class="newSubject">
+			<header>
+				<h1 id=""></h1>
+			</header>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Creating Links-->
+<!--
+		<section class="newSubject">
+			<header>
+				<h1 id=""></h1>
+			</header>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Creating Links-->
+
+		<hr>
+	</div><!--id="content"-->
+	<footer>&copy; 2013 MatsonDesign</footer>
+</div><!--id="page"-->
+</body>
+</html>

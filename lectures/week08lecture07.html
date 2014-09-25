@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8" type="text/html">
+	<title>Lynda.com | CIT 85 Tutorial</title>
+
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		width: 70%;
+		min-width: 600px;
+		margin: auto;
+		font-family: sans-serif;
+		background-color: #BCF5A9;
+	}
+	#content {
+		padding: 0px 10px;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+		background-color: #fff;
+	}
+	#banner {
+		text-align: center;
+		margin: 35px 0px 15px;
+	}
+	nav {
+		margin-top: 5px;
+	}
+	nav a {
+		text-decoration: none;
+		letter-spacing: -1px;
+		margin-right: 5px;
+	}
+	a:link {
+		color: #0066CC;
+	}
+	a:visited {
+		color: #0000AA;
+	}
+	a:hover {
+		text-decoration: underline;
+		background-color: #BCF5A9;
+		color: black;
+	}
+	a:active {
+		text-shadow: 0px 0px 2px #000;
+	}
+	.newSubject {
+		margin: 5px 0px;
+	}
+	section h1 {
+		text-decoration: underline;
+		font-size: 1.7em;
+	}
+	article h2 {
+		font-size: 1.3em;
+		margin-top: 5px;
+	}
+	footer {
+		margin-top: 5px;
+		text-align: right;
+		font-size: 0.9em;
+	}
+	#page > footer {
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+<div id="page">
+	<header id="banner">
+		<h1>CSS Fundamentals</h1>
+		<nav>
+			<a href="http://invsncloud.com.166-78-91-1.mdgnetworks.com/lectures/week7lecture6.html">Page 1</a><span>|</span>
+			Page 2<span>|</span>
+			<!--<a href="">Page 3</a>-->
+			<br>
+			<a href="#introduction">Introduction</a><span>|</span>
+			<a href="#cssbasics">CSS&nbsp;Basics</a><span>|</span>
+			<a href="#cssspecifications">CSS&nbsp;Specifications</a><span>|</span>
+			<a href="#commoncssconcepts">Common&nbsp;CSS&nbsp;Concepts</a><span>|</span>
+			<a href="#cssresources">CSS&nbsp;Resources</a><span>|</span>
+		</nav>
+	</header><!--id="banner"-->
+	<hr>
+	<div id="content">
+		<section class="newSubject">
+			<header>
+				<h1 id="introduction">Introduction</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Welcome</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+				<h2>Who is this course for?</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Introduction-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="cssbasics">CSS Basics</h1>
+			</header>
+			<article>
+				<header>
+					<h2>What is CSS?</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Default browser styles</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Syntax</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Basic selector types</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>How CSS works with HTML structure</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Authoring options</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>How browsers apply styles</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Browser rendering differences</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return so site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of CSS Basics-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="cssspecifications">CSS Specifications</h1>
+			</header>
+			<article>
+				<header>
+					<h2>A brief history of CSS</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>The current state of CSS</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Exploring specifications</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Reading specifications</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Checking browser support</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Basic Page Design-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="commoncssconcepts">Common CSS Concepts</h1>
+			</header>
+			<p>
+			<article>
+				<header>
+					<h2>Working with fonts</h2>
+				</header>
+				<p>Typography is important for design to convey what you are attempting to communicate. When styling fonts first one must consider to use System Fonts or Web Fonts. System Fonts are preinstalled fonts which come with OS software. Web Fonts utilize a font file hosted on a server and is accessed with the @font-face selector.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Formatting text</h2>
+				</header>
+				<p>To choose a font you use the font-family property, the values of the font-family are listed from left to right with the highest priority font available listed first and the lowest priority available font listed last. Using the font-size property the size of text can be adjusted by using pixels, em's, or percetages. Em's tend to be more fluid. To specify bold text, font-weight is used while font-style creates italicized text.</p>
+
+				<p>Other visual elements include text-variant to create smallcaps, text-align to reposition text, text-transform to designate upper/lowercase text, text-indent, letter-spacing, word-spacing, and line-height</p>
+			</article>
+			<article>
+				<header>
+					<h2>What is the box model?</h2>
+				</header>
+				<p>Encapsulates all web content, consists of margins, borders, padding and the element. Used to position elements and allow them to interact with eachother. To calculate the total size of an element one must calculate the element itself along with the padding and border.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Margins and padding</h2>
+				</header>
+				<p>Padding is the space inside elements that hold the content of an element away from its edge. Margins represent the space between elements. Margins are not factored into the total width of an element, it does need to be calculated into the total space taken up on a page. Both properties can be styled by specifying a specific size, or by using short-hand notation. Margins will collapse into each other.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Borders</h2>
+				</header>
+				<p>Defines the outside edge of an element and is commonly used for decoration. Values can influence the width, style, and color for each individual side or through short-hand notation. The size must be added to the total element size along with padding and the content. A border-image property is currently in development to allow images to be stretched and repeated along a border. Lastly, an outline property exists which is similar to boarders but it will create an outlight around the entire element and does not add to the overall width. Since it is not widely supported in all browsers its use remains uncommon.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Backgrounds</h2>
+				</header>
+				<p>The background extends all the way to the elements edge of the border. Properties use include background-color to change the color and apply gradients. Background-image allows the integration of an image that can take up the entire background or be repeated to create a texture. Multiple background images may be combined along with backround colors.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Color</h2>
+				</header>
+				<p>Consists of border-color, background-color and color. Color refers to the foreground color and will effect the content of a page. Color values may be influenced using keywords, hexidecimal notation, rgba, or hsla. The a in rgba and hsla representss opacity rather than color, although it stands for alpha.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Common units of measurement</h2>
+				</header>
+				<p>Units of measurement designated by w3c standards are &lt;length&gt; but when placed in application are referred to as absolute units: inches(in), centimeters(cm), millimeters(mm), points(pt), picas(pc), and relative units: ems(em), exes(ex), pixels(px), grids(gd), root ems(rem), viewport width(vw), viewport height(vh), viewport minimum(vm), and character(ch).</p>
+				<p>Viewport is a newer property which does not yet have widespread use yet has great potential for uniformity. Pixels vary depending on the screen resolution. Ems are based upon the letter 'm' of the user agent device and is great for creating a fluid layout. Relative units are recommended for web design while absolute units are generally for print.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Element positioning</h2>
+				</header>
+				<p>Three schemes are used to place elements within a browser window. Normal Flow, float, and absolute. In Normal Flow the default, doing nothing, this stacks one element on top one another. Using the relative value of the position property you can change the position of elements without effecting it's default position, so content below will not fill the hold left behind. Using the absolute value of the position property on the other hand will allow content to be reposistioned and it's original position will be filled by with content, where this comes in handy is when an absolute value is the child of a relative value it allows you to layer content. The fixed value of the position property Allow you to scroll a window without content changing position.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Floats</h2>
+				</header>
+				<p>Float is a property used with the values of left, right, clear or none. When an content is floated it is just like placing helium baloons on the content and having it essentially 'float' upwards on a page. Since floated content leaves gaps that other content may fill and cause unexpected resaults, you can use the clear value to make sure content still recognizes the floated content so they don't move around.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Basic layout concepts</h2>
+				</header>
+				<p>When creating page layout, many designers will create content regions which are blocked out to allow them to visualize the look of a page prior to placing in actual content. It is recommended that percentages and ems are used to make your content accessible by all user devices.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Media types and media queries</h2>
+				</header>
+				<p>Media types allow you to send or restrict style types based upon the device accessing the page. This is done using @media, @import, and an HTML link. You can style specifically for projectors, printers, braille, screen readers, TTY, TV, and mobile handheld devices. Media queries on the other hand are used in combination with media types to check for certain features present in the device accessing a web page to ensure that the correct layout it used when content is presented.</p>
+			</article>
+			<article>
+				<header>
+					<h2>What is CSS3</h2>
+				</header>
+				<p>A blanket term used to describe the functionality of CSS which has emerged over the last few years. Many new features were introduced and are still undergoing implementation. Enhancing older properties like multiple backgrounds, border-images, border-radius, and alpha values or new properties such as text-shadow, box-shadow, gradients, transitions animations, and transforms are just a few properties that make up CSS3.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Vendor prefixes</h2>
+				</header>
+				<p>Allows browser manufacturers to support properties still in development or are proprietary to the browser. -ms-, -moz-, -o-, -khtml-, -webkit- are the prefixes used in the most popular browsers available. For developers this is a good way to see the effects of elements which may be fully implemeneted in the future and maintain wide-spread support for all users.</p>
+			</article>
+			<article>
+				<header>
+					<h2>What is a CSS reset</h2>
+				</header>
+				<p>This is collection of styles that nullify the default styles set by the browser. To implement, just use a wildcard selector at the top of the stylesheet and list all of the properties with their associated values that you want to become the new default. When resetting the CSS, it is important to remember to replace the CSS styles later on to the desired value. The reason to use a reset is to give a consistent baseline to build a site from.</p>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Formatting Page Content-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="cssresources">CSS Resources</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Using frameworks and grids</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Popular frameworks</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Preprocessors</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Editors</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Online tools</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Additional resources</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Creating Links-->
+
+		<hr>
+	</div><!--id="content"-->
+	<footer>&copy; 2013 MatsonDesign</footer>
+</div><!--id="page"-->
+</body>
+</html>

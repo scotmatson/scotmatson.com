@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8" type="text/html">
+	<title>Lynda.com | CIT 85 Tutorial</title>
+
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		width: 70%;
+		min-width: 600px;
+		margin: auto;
+		font-family: sans-serif;
+		background-color: #BCF5A9;
+	}
+	#content {
+		padding: 0px 10px;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+		background-color: #fff;
+	}
+	#banner {
+		text-align: center;
+		margin: 35px 0px 15px;
+	}
+	nav {
+		margin-top: 5px;
+	}
+	nav a {
+		text-decoration: none;
+		letter-spacing: -1px;
+		margin-right: 5px;
+	}
+	a:link {
+		color: #0066CC;
+	}
+	a:visited {
+		color: #0000AA;
+	}
+	a:hover {
+		text-decoration: underline;
+		background-color: #BCF5A9;
+		color: black;
+	}
+	a:active {
+		text-shadow: 0px 0px 2px #000;
+	}
+	.newSubject {
+		margin: 5px 0px;
+	}
+	section h1 {
+		text-decoration: underline;
+		font-size: 1.7em;
+	}
+	article h2 {
+		font-size: 1.3em;
+		margin-top: 5px;
+	}
+	footer {
+		margin-top: 5px;
+		text-align: right;
+		font-size: 0.9em;
+	}
+	#page > footer {
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+<div id="page">
+	<header id="banner">
+		<h1>Up and Running with HTML</h1>
+		<nav>
+			<a href="">Page 1</a><span>|</span>
+			<a href="http://invsncloud.com.166-78-91-1.mdgnetworks.com/lectures/week5lecture4.html">Page 2</a><span>|</span>
+			<a href="http://invsncloud.com.166-78-91-1.mdgnetworks.com/lectures/week6lecture5.html">Page 3</a>
+			<br>			
+			<a href="#introduction">Introduction</a><span>|</span>
+			<a href="#gettingStarted">Getting&nbsp;Started</a><span>|</span>
+			<a href="#basicPageDesign">Basic&nbsp;Page&nbsp;Design</a><span>|</span>
+			<a href="#formattingPageContent">Formatting&nbsp;Page&nbsp;Content</a><span>|</span>
+			<a href="#creatingLinks">Creating&nbsp;Links</a><span>|</span>
+			<a href="#buildingTables">Building&nbsp;Tables</a><span>|</span>
+			<a href="#controllingStyling">Controlling&nbsp;Styling</a><span>|</span>
+			<a href="#conclusion">Conclusion</a>
+		</nav>
+	</header><!--id="banner"-->
+	<hr>
+	<div id="content">
+		<section class="newSubject">
+			<header>
+				<h1 id="introduction">Introduction</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Welcome</h2>
+				</header>
+				<p>Course introduction by James Williamson from Lynda.com. Course overview will cover best practices of HTML and how to approach learning it. Also, page structure, links, tables, and beyond.</p>
+			</article>
+			<article>
+				<header>
+				<h2>Using the exercise files</h2>
+				</header>
+				<p>Explanation of exercise files and their locations. James gives advice of how best to take advantage of these files and when to use them. Also, what tools should be used when following along with the series.</p>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Introduction-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="gettingStarted">Getting Started</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Learning HTML</h2>
+				</header>
+				<p>HTML is surprisingly easy to learn. The basics can be picked up as quickly as five minutes. HTML is a mark-up language, this means that tags&lt;code&gt; are used to describe the content on the page.</p>
+
+				<p>Modern web design uses different languages together to create feature rich web site. HTML: structure, CSS: presentation, JavaScript: behavior, PHP: back-end, CMS: content.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Choosing a code editor</h2>
+				</header>
+				<p>Authoring HTML requires little more than a simple text editor. Special editors exist help developers speed up the process by integrating syntax highlighting, line numbers, and special language support and formatting</p>
+
+				<p>It is recommended that sever code editors are downloaded and experimented with to find one that fits your personal preferences. James gives a walk-through to the Komodo IDE at this point.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Exploring basic HTML syntax</h2>
+				</header>
+				<p>HTML uses tags to identify page content. A tag uses a left angle bracket &lt; and a right angle bracket &gt; to hold information about the structure of the web page. This is an element of HTML. &lt;p&gt; for instance tells the browser that we are creating a paragraph while &lt;/p&gt; tells the browser that we are done using the paragraph tag. The first p tag is called an opening tag while the second p tag is known as the closing tag.</p>
+
+				<p>Tags can also have attributes which tell us more information about a particular tag being used. An example would be &lt;p lang="en"&gt;. The lang="en" attribute tells us that this paragraph will be typed in English.</p>
+
+				<p>Tags can be placed within other tags creating a parent/child relationship. The key thing to remember is when closing tags, last in is always first out.</p>
+
+				<p>When creating a web page a few tags must be present. These are the DOCTYPE declaration, the HTML tag, the head tag, and the body tag.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Do I need to learn HTML5</h2>
+				</header>
+				<p>1991, Tim Berners-Lee introduced the first HTML tags. Over the next decade multiple versions of HTML were released and often had unique syntax across multiple browsers. The following decade was spent attempting to standardize HTML to ease the frustrations of programmers and developers. Currently HTML5 is being implemented and developed. HTML5 is not necessary that much different from its predecessors but it has one key difference in that its heavily focused on integrating applications and working closely with CSS and JavaScript.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Exploring HTML references</h2>
+				</header>
+				<p>HTML resources are introduced to help find information and understand standard practices, syntax, and organization. The two most well known groups that are actively involved in development is W3C and WHATWG. A site known for providing great developer tutorials and assistance is the Mozilla Developers Group.</p>
+			</article>
+			<footer>
+				<a href="#banner">Return so site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Getting Started-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="basicPageDesign">Basic Page Design</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Exploring an HTML document</h2>
+				</header>
+				<p>One of the best ways to learn about HTML is to look at other developer's code. This can be easily accomplished by opening a web browser and opening the 'inspect element' or 'source code'. For new users this still may be difficult to understand, but most browsers have built in features which allow you to use your cursor to highlight various elements of the page which will in turn highlight the source code which is being viewed, and visa versa.</p>
+
+				<p>HTML documents are made up of three major pieces. 1: The HTML tag is the parent tag of the entire document. Without it, you don't have an HTML document. 2: The document head contains meta data, links, and styling. It is not necessarily information presented on the page itself but it is read by the computer. 3: The body element holds information that is to be displayed on the web page itself.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Working with DOCTYPE declarations</h2>
+				</header>
+				<p>The &lt;!DOCTYPE&gt; triggers a set of standards to ensure the page is rendering properly. Multiple versions exist and pre-HTML5 can be difficult to remember. Existing web sites have DOCTYPES which can copied and pasted into an HTML file.</p>
+
+				<p>The &lt;!DOCTYPE HTML&gt; is what is used for HTML5. The DOCTYPE will be the first thing entered into code on an HTML file and is found at the very top of the HTML file. It is not something that is visible to the user through a web browser but can be seen by viewing the source code.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Examining the document head</h2>
+				</header>
+				<p>After the opening HTML tag lies the document &lt;head&gt;. Between the opening and closing head tag lies invisible information that details information about how the document will work. Information such as &lt;meta&gt; can provide useful information to write a description to a page or use keywords, to write how a page should be viewed through multiple platforms, or instructions on which character set to use.</p>
+
+				<p>The meta tag is helpful for search engine optimization, users, and browsers. When used it's worth noting that meta tags do not require a closing meta tag. Aside from the meta tags a opening and closing &lt;title&gt; tag which displays information in the browser title bar can be found, styles for formatting, and scripts as well.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Looking at the document body</h2>
+				</header>
+				<p>The &lt;body&gt; tag holds all of the information that is to be presented to a user through the browser. Anything typed into the body will be displayed but it is important to remember that unless tags are applied, no structure or formatting may be added.</p>
+
+				<p>Typical elements of the body that may be found are very similar to that of a word document. Those structural elements are a header, main content, side content, and a footer.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Adding document structure</h2>
+				</header>
+				<p>Given the freedom is design, you could teach HTML structure to multiple designers and give them content and you will end of up with many different looking web sites. One of the most important things to consider though is does the layout meet HTML standards and will it be easy to upkeep.</p>
+
+				<p>When building sites, aside from building a structure that is easy to maintain, you want to have consistency through the entire site. This means that as you browse from page to page you see common themes which help users know that they are still on the same page and the page will have consistent functionality.</p>
+
+				<p>Content can be more easily managed by dividing related sections with an opening and closing &lt;div&gt; tag. Since having a page full of div tags does not allow much room to individually style different sections we often will apply an id="" attribute to isolate isolated sections or a class="" attribute to isolate groups of related content. By using these attributes it becomes much easier to apply CSS stylings and HTML structure.</p>
+
+				<p>With the induction of HTML use of the div tag has been drastically reduced as we now have special tags like &lt;header&gt;, &lt;section&gt;, &lt;article&gt;, &lt;aside&gt;, and &lt;footer&gt;.</p>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Basic Page Design-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="formattingPageContent">Formatting Page Content</h1>
+			</header>
+			<p>
+			<article>
+				<header>
+					<h2>How does HTML format text?</h2>
+				</header>
+				<p>As a mark-up language, HTML uses tags to format the content on a page. Without tags a browser will render text to the browsers default setting. With the inclusion of tags we will not necessarily see a visible change to the format of the content in the web browser, as that is not HTML's purpose. What we will see is a change of how content is structured.</p>
+				<p>Content heading tags are used to tell the browser that this line of text is a heading, and also can indicate the importance of the content. Six heading tags are used with 1 being the most important and 6 being the least important. They are used as an opening and closing tag and typed &lt;h1&gt;. A &lt;pre&gt; opening and closing tag will present text exactly how it is layed out in the HTML file. The &lt;em&gt; and &lt;i&gt; opening and closing tags both format the text into italics but one is used for visual effect while the other is used to emphasize text and will be semantically understood by a screen reader.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Adding headings</h2>
+				</header>
+				<p>Headings are used to structure content and develop a hierarchy of importance, &lt;h1&gt; being the most important and &lt;h6&gt; being the least important. Browsers will denote this importance by the size of the size associated with the heading but this is only a reference. Proper sizing should always occur through CSS only.</p>
+
+				<p>Planning ahead helps develop a proper heading strategy. Typically only one h1 tag will exist and indicates the title of the page. As content is presented it is a best practice to use headings sequentially, so no jumping from an h2 to an h5 tag. Proper is of heading tags can help SEO better catalog the information on your page.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Formatting paragraphs</h2>
+				</header>
+				<p>Most browsers will default any free floating text into a paragraph tag. The &lt;p&gt; tag is probably one of the most used tags in HTML. When the paragraph tag is placed around a block of text it tells the browser that this text is a paragraph and belongs together and also formats the text to have a distinguishable amount of white space above and below it.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Controlling line breaks</h2>
+				</header>
+				<p>A &lt;br&gt; is a line break tag and forces a hard return to occur anywhere it is placed. It is useful to place these in places where you would like to place groups of code on separate lines without losing the relationship that the code shares with itself, such as an address wrapped within a &lt;p&gt; tag.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Creating lists</h2>
+				</header>
+				<p>Depending on how content needs to be organized, three different types of lists exist in HTML. 1: An ordered list &lt;ol&gt; uses an opening and closing tag and is used for list items that would not make sense when placed in a random order. The list created will be numerically ordered. 2: An unordered list &lt;ul&gt; is used for a list that still makes sense when list items are placed in a randomized order. It uses bullet markets to indicate that each item of the list is in fact a list, rather than a number. Ordered and unordered list items are creating by placing opening and closing list item &lt;li&gt; tags with list content within the ordered or unordered list tags.</p>
+
+				<p>Finally the third type of list is called a definition list &lt;dl&gt;. These are lists that use terms &lt;dt&gt; and definitions &lt;dd&gt; instead of list items. While it presents similarly to lists, it is more specialized to presented paired information that explains or gives additional detail such as a glossary, dictionary, or FAQ.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Emphasizing text</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Displaying special characters</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Controlling whitespace</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Inserting images</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Formatting Page Content-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="creatingLinks">Creating Links</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Linking to pages within your site</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Linking to external pages</h2>
+				</header>
+				<p></p>
+			</article>
+			<article>
+				<header>
+					<h2>Linking to downloadable resources</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Linking to page regions</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Creating Links-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="buildingTables">Building Tables</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Examining basic table structure</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Adding content to tables</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Setting table attributes</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Adding table captions</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Defining table headers</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Making table data accessible</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Building Tables-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="controllingStyling">Controlling Styling</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Understanding the relationship between HTML and CSS</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Creating in-line styles</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Exploring the style element</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Basic font styling</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Changing color</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Taking styles furthur</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation,</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Controlling Styling-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="conclusion">Conclusion</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Next Steps</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Additional resources</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Conclusion-->
+		<hr>
+	</div><!--id="content"-->
+	<footer>&copy; 2013 MatsonDesign</footer>
+</div><!--id="page"-->
+</body>
+</html>

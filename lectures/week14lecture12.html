@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8" type="text/html">
+	<title>Lynda.com | CIT 85 Tutorial</title>
+
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		width: 70%;
+		min-width: 600px;
+		margin: auto;
+		font-family: sans-serif;
+		background-color: #BCF5A9;
+	}
+	#content {
+		padding: 0px 10px;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+		background-color: #fff;
+	}
+	#banner {
+		text-align: center;
+		margin: 35px 0px 15px;
+	}
+	nav {
+		margin-top: 5px;
+	}
+	nav a {
+		text-decoration: none;
+		letter-spacing: -1px;
+		margin-right: 5px;
+	}
+	a:link {
+		color: #0066CC;
+	}
+	a:visited {
+		color: #0000AA;
+	}
+	a:hover {
+		text-decoration: underline;
+		background-color: #BCF5A9;
+		color: black;
+	}
+	a:active {
+		text-shadow: 0px 0px 2px #000;
+	}
+	.newSubject {
+		margin: 5px 0px;
+	}
+	section h1 {
+		text-decoration: underline;
+		font-size: 1.7em;
+	}
+	article h2 {
+		font-size: 1.3em;
+		margin-top: 5px;
+	}
+	footer {
+		margin-top: 5px;
+		text-align: right;
+		font-size: 0.9em;
+	}
+	#page > footer {
+		text-align: center;
+	}
+	li {
+		margin-left: 25px;
+	}
+	</style>
+</head>
+<body>
+<div id="page">
+	<header id="banner">
+		<h1>Mobile Website Design &amp; Development Fundamentals</h1>
+		<nav>
+			<a href="http://invsncloud.com.166-78-91-1.mdgnetworks.com/lectures/week13lecture11.html">Page 1</a><span>|</span>
+			Page 2<span>|</span>
+			<a href="invsncloud.com.166-78-91-1.mdgnetworks.com/lectures/week15lecture13.html">Page 3</a><span>|</span>
+			<a href="http://invsncloud.com.166-78-91-1.mdgnetworks.com/lectures/week16lecture14.html">Page 4</a>
+			<br>
+			<!--<a href="#introduction">Introduction</a><span>|</span>
+			<a href="#understandingthemobileweb">Understanding the Mobile Web</a><span>|</span>
+			<a href="#mobilewebdevelopmentguidelines">Mobile Web Development Guidelines</a><span>|</span>-->
+			<a href="#settingupadevelopmentenvironment">Setting Up a Development Environment</a><span>|</span>
+			<a href="#adaptingdesktopsitesformobiledevices">Adapting Desktop Sites for Mobile Devices</a><!--<span>|</span>
+			<a href="#creatingmobile-optimizedpages">Creating Mobile-Optimized Pages</a><span>|</span>
+			<a href="#understandingmobilebrowsercapabilities">Understanding Mobile Browser Capabilities</a><span>|</span>
+			<a href="#puttingitallintopractice">Putting It All into Practice</a><span>|</span>
+			<a href="#conclusion">Conclusion</a>-->
+		</nav>
+	</header><!--id="banner"-->
+	<hr>
+	<div id="content">
+		<section class="newSubject">
+			<header>
+				<h1 id="#introduction">Introduction</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Welcome</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+				<h2>Using the exercise files</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Introduction-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="#understandingthemobileweb">Understanding the Mobile Web</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Understanding the mobile context</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>A survey of mobile sites</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Targeting mobile browsers</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Previewing a complete mobile site</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return so site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Understanding the Mobile Web-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="#mobilewebdevelopmentguidelines">Mobile Web Development Guidelines</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Designing for one web</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Using well-defined web standards</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Designing mobile-friendly pages</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Being crisp, clean, and succinct</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Minimizing input where possible</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Focusing on the core scenarios</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Mobile Web Development Guidelines-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="settingupadevelopmentenvironment">Setting Up a Development Environment</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Installing the tools</h2>
+				</header>
+				<p>Chapter overview. This section will require a programming text editor, a host server, and a mobile emulator.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Setting up a local web server</h2>
+				</header>
+				<p>Setting up a local web server using Microsoft Internet Information Services(IIS) server. The reason this is necessary is due the fact that the mobile phone emulators cannot open up local files from the system. They are virtual machines that run as if they were on actual phones. Using a local web server is a work-around to this problem. Following along with the video, I installed IIS7, created a MobilWebDevFund folder, and tested it out on my local host to make sure it was working properly which it was.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Installing device emulators</h2>
+				</header>
+				<p>Installation of the Windows, Android, Opera, and iPhone mobile emulators. Each is tested through the local host within the native emulator web browser. Each environment appears to be a large download and not very intuitive. You would think a single application would exist for developers to test their code on.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Using device emulators</h2>
+				</header>
+				<p>Emulator walkthrough. Covers softkey functionality along with a number of useful keyboard shortcuts and also how toggle the keyboard and enter landscape mode.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Downloading Modernizr and Mobile Boilerplate</h2>
+				</header>
+				<p>Discussion on Modernizer (a JavaScript library that lets you test technologies within a browser before you use it) and the difference between the development version and production version of the software. Finishes up with HTML5 Boilerplate, a simple template which is a collection of best practices for modern mobile browsers.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Building a first mobile web page</h2>
+				</header>
+				<p>Takes a basic html file which includes an h1 tag and a p tag and shows the default presentation on mobile browsers. Default appears zoomed out and difficult to read without zooming in. By placing three meta tags in the head of the html document you can tell the browser to load the html content to fit to screen on load. These meta tags are HandhelfFriendly, MobileOptimized, and Viewport.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Developing a mobile pages with desktop browsers</h2>
+				</header>
+				<p>User agent tools to test mobile browsers on a desktop platform. IE and Safari have these tools already built in while Chrome and Firefox require a plug-in. Additional user agent settings were customly entered but the discussion did not really dive into how to build these or find them for yourself.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Exploring useful mobile web development resources</h2>
+				</header>
+				<p>General best practices resources and vendor specific resources. Helps developers build accessible web sites optimized for the mobile platform.</p>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Setting Up a Development Environment-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="adaptingdesktopsitesformobiledevices">Adapting Desktop Sites for Mobile Devices</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Reviewing mobile markup languages</h2>
+				</header>
+				<p>The evolution of mobile markup langauges. SGML developed in the early 1970's gave rise to HTML, XML, and HDML. HTML and XML came together to produce XHTML in the mid-90's. In the late 90's cHTML, XHTML basic and WML emerged. In the early 2000's all of these languages converged to become XHTML-MP and finally HTML5 which is now the standard of today in desktop browser and mobile browser development. Understanding the history of these languages helps developers understand what they may encounter during their career.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Understanding content adaptation approaches</h2>
+				</header>
+				<p>Three ways of adapting your web sites for a mobile and desktop environment. The Do Nothing approach does as the name said, no changes are made to adapt the layout for mobile production. The multi-Serve approach uses one document with complex scripts and sniffing methods to target various form factors. Finally a Mobile-Specific approach uses two separately developed sites, one for desktop and one for mobile and then uses sniffing to discover how you are accessing the web site and serves you up the appropriate platform specific site.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Controlling the viewport layout</h2>
+				</header>
+				<p>Review of meta tags used to make desktop pages mobile ready. HandheldFriendly is used to tell the browser that the site is already optimized for mobile devices and the browser does not have to do any extra work. MobileOptimized is more advanced than Handheldfriendly and is used to specify the width of screen the site is optimized for. Viewport was designed by Apple and has become the standard for controlling how the mobile browser displays a page. When designing web sites all three meta tags should be used as modern browsers are intelligent enough to know which one to use.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Designing forms</h2>
+				</header>
+				<p>To optimize forms for mobile use, minimize the number of screens a user has to pass through. Use native web form controls instead of custom ones. Use top-aligned form labels instead of left or right input fields. Give the option to display password characters. Use HTML5 form input types.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Using CSS media queries</h2>
+				</header>
+				<p>CSS media queries provide a way to selectively apply a style sheet based upon certain criteria of the media where the content is to be displayed. These criteria range from window size, screen size, aspect ratio, color deptch, and resolution. Many of these accept min- and max-, also, all css compliant units of measurement. To apply the media query you can specify a media attribute in a link element to an external stylesheet and state screen AND (max/min width). This can also be declared within a stylesheet by using the @media directive which states the same thing, screen and (min/max width......).</p>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Adapting Desktop Sites for Mobile Devices-->
+<!--
+		<section class="newSubject">
+			<header>
+				<h1 id=""></h1>
+			</header>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Creating Links-->
+<!--
+		<section class="newSubject">
+			<header>
+				<h1 id=""></h1>
+			</header>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Creating Links-->
+<!--
+		<section class="newSubject">
+			<header>
+				<h1 id=""></h1>
+			</header>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2></h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Creating Links-->
+
+		<hr>
+	</div><!--id="content"-->
+	<footer>&copy; 2013 MatsonDesign</footer>
+</div><!--id="page"-->
+</body>
+</html>

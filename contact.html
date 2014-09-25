@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>Scot Matson | Contact</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="author" content="Scot Matson"/>
+	<meta name="keywords" content="requests, projects, comments, complaints, feedback, contact, work">
+	<meta name="description" content="Use these forms to contact me about projects, feedback, or just to get a hold of me.">
+	<meta name="robots" content="index, follow">
+	<link rel="stylesheet" type="text/css" href="_css/style.css">
+	<link rel="shortcut icon" href="_img/favicon.ico">
+	<script type="text/javascript" src="_js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="_js/script.min.js"></script>
+	<script language="JavaScript" src="form/scripts/gen_validatorv31.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="page">
+
+	<div id="masthead">
+		<header>
+			<div id="mh-content">
+				<!--<h1>scotmatson</h1>-->
+				<img id="brandname" src="_img/logo00.gif" width="261" height="106" alt="Scot Matson, styled text">
+				<form id="search">
+					<input type="search" name="search">
+					<input type="submit" value="search">
+				</form>
+				<nav>
+					<ul>
+						<li><a href="index.html">home</a></li>
+						<li><a href="about.html">about</a></li>
+						<li><a href="http://invsncloud.com.166-78-91-1.mdgnetworks.com/_blog/">blog</a></li>
+						<li><a>contact</a></li>
+					</ul>
+				</nav>
+			</div><!--mh-content-->
+		</header>
+	</div><!--#masthead-->
+
+	<div id="contact">
+		<div id="contact-info">
+			<article>
+				<header>
+				</header>
+				<p>I am currently looking for work! As a student I still have many years ahead of me in design and development before I commit to a specializing and mastering my craft. In the meantime I am looking to network, collaborate and offer my services for below-market value. I only ask that you remain patient as some requests may require additional education on my part. As a benefit to you aside from saving money, I have a strong work ethic and work well with others. I intend on lovingly hand-crafting my code to ensure that the sites and applications developed are unique and completely tailored to suit your needs. For all inquiries please completely fill out the forms below, provide as much detailed information as possible including special requests and any files that you wish for me to evaluate prior to a formal consultation. If I am unable to take you on as a client due to time constraints or requests which exceed my own abilities, upon your permission I will refer you to another developer.</p>
+			</article>
+		</div><!--contact-info-->
+
+		<div id="contact-form">
+			<form id="formID" method="post" name="myemailform" action="form/form-to-email.php">
+				<fieldset id="upperfield">
+					<legend>State Thy Name</legend>
+					<div>
+						<label for="name" class="title">Name:</label>
+						<input type="text" name="name" placeholder="First &amp; Last" maxlength="30">
+					</div>
+					<div>
+						<label for="email" class="title">Email:</label>
+						<input type="email" name="email" placeholder="user@mydomain.com">
+					</div>
+					<div>
+						<label class="title">Website:</label>
+						<input type="url" name="website" placeholder="http://">
+					</div>
+				</fieldset>
+			
+				<fieldset id="lowerfield">
+					<legend>State Thy Purpose</legend>
+					<div>
+						<p>
+						<input type="radio" name="purpose" value="business">&nbsp;Business
+						<input type="radio" name="purpose" value="pleasure">&nbsp;Pleasure
+						</p>
+					</div>
+					<div>
+						<label for="message" class="title">Comments:</label>
+					</div>
+					<div>
+						<textarea name="message"></textarea><br>
+					</div>
+					<div class="submit">
+						<input id="submit" type="submit" name="submit" value="submit">
+					</div>
+				</fieldset>
+			</form>
+			<script language="JavaScript">
+				var frmvalidator  = new Validator("myemailform");
+				frmvalidator.addValidation("name","req","Please provide your name"); 
+				frmvalidator.addValidation("email","req","Please provide your email"); 
+				frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+			</script>
+		</div><!--contact-form-->
+	</div><!--contact-->
+	
+	<footer>
+		<p>Copyright 2013 - Matson Design</p>
+	</footer>
+</div><!--page-->
+</body>
+</html>

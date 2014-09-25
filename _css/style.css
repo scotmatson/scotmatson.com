@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/************************************************************/
+/*					CSS Reset								*/
+/************************************************************/
+* {
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+	list-style-type: none;
+	text-decoration: none;
+}
+/************************************************************/
+/*					Font Import								*/
+/************************************************************/
+@font-face {
+	font-family: latin-wide;
+	src: url(../_fonts/latinwd.ttf);
+}
+/************************************************************/
+/*					Page Outline 							*/
+/************************************************************/
+body {
+	background-image: url(../_img/blackorchid.gif);
+}
+#page {
+	margin: 3%;
+}
+/************************************************************/
+/*					Site Header								*/
+/************************************************************/
+#mh-content {
+	margin: 0 auto;
+	width: 67%;
+}
+#brandname {
+	width:25%;
+	height: 100%;
+	float: left;
+}
+#search {
+	margin: 4% 0 1% 0;
+	float: right;
+}
+nav {
+	margin: 0% auto;
+}
+nav ul {
+	margin: 0% auto;
+	text-align: right;
+	clear: right;
+	font-family: latin-wide, serif;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	padding-left: 1%;
+	color: #fff;
+}
+nav a:hover {
+	border-bottom: 1px solid #333;
+}
+/************************************************************/
+/*					Shutter Navigation						*/
+/************************************************************/
+#shutter {
+	margin: 3% auto;
+	width: 75%;
+	font-size: 0;
+	box-shadow: 0 0 10px #fff;
+}
+.grid {
+	display: inline;
+}
+#shutter img {
+	width: 11.1%;
+	height: 100%;
+}
+/************************************************************/
+/*					Site Content							*/
+/************************************************************/
+#content {
+	margin: 3% auto;
+	padding-top: 2%;
+	width: 70%;
+	border-top: 2px solid #333;
+	color: #ddd;
+}
+/************************************************************/
+/*					Site Footer								*/
+/************************************************************/
+footer {
+	padding-top: 1%;
+	width: 100%;
+	text-align: right;
+	clear: both;
+	color: #222;
+}
+/************************************************************/
+/*					Contact Layout							*/
+/************************************************************/
+#contact {
+	margin: 3% auto;
+	padding-top: 1%;
+	width: 70%;
+	border-top: 2px solid #333;
+	color: #ddd;
+}
+#contact-info {
+	width: 50%;
+	color: #ddd;
+	float: left;
+}
+#contact-form {
+	width: 50%;
+	float: right;
+}
+/************************************************************/
+/*					Contact Form							*/
+/************************************************************/
+#contact-form form {
+	width: 70%;
+	margin-left: 10%;
+	color: #ddd;
+}
+#upperfield, #lowerfield {
+	margin-bottom: 5%;
+	float: left;
+}
+legend {
+	margin-left: 5%;
+}
+form div {
+	border-bottom: 1px solid #efefef;
+	margin: 10px;
+	padding-bottom: 10px;
+	width: 260px;
+}
+#lowerfield div {
+	border: none;
+	margin: 10px;
+	padding-bottom: 10px;
+	width: 260px;
+}
+.title {
+	padding-right: 1%;
+	width: 27%;
+	float: left;
+	text-align: right;
+}
+textarea {
+	width: 19.2em;
+	height: 8em;
+}
+.submit {
+	text-align: right;
+}
+/************************************************************/
+/*						about.html							*/
+/************************************************************/
+#lords {
+	width: 100%;
+	border: 2px solid #eee;
+}
+#butterfly {
+	margin: 2%;
+	width: 35%;
+	float: right;
+	border: 2px solid #eee;
+	box-shadow: 4px 4px 1px #555;
+}
+#crazydad {
+	margin: 2%;
+	width: 25%;
+	float: left;
+	border: 2px solid #eee;
+	box-shadow: 4px 4px 1px #555;
+}
+/************************************************************/
+/*						webdesign.html						*/
+/************************************************************/
+#siteContainer {
+	width: 76%;
+	float: left;
+}
+.sitePreview {
+	width: 100%;
+	height: 100%;
+}
+#naviSideBar {
+	width: 20%;
+	height: 200px;
+	float: right;
+	border-top: 1px solid #333;
+	border-left: 1px solid #333;
+}
+#naviSideBar h3 {
+	padding: 3% 4%;
+}
+#naviSideBar li {
+	padding-left: 8%;
+	font-size: 0.9em;
+}
+/************************************************************/
+/*						Change Log							*/
+/************************************************************/
+.log li{
+	list-style-type: disc;
+}

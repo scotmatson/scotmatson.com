@@ -1,0 +1,473 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"italic"
+			],
+			[
+				"element",
+				"elementCount"
+			],
+			[
+				"deg",
+				"degFahren"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en-us\">\n<head>\n	<title>Scot Matson | Index</title>\n	<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>\n	<meta name=\"author\" content=\"Scot Matson\"/>\n	<meta name=\"keywords\" content=\"design, program, student, portfolio, resume, freelance, contract\">\n	<meta name=\"description\" content=\"Welcome to Scot Matsons online portfolio. This is page is the main portal that links to my many interests and projects.\">\n	<meta name=\"robots\" content=\"index, follow\">\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"_css/style.css\">\n	<link rel=\"shortcut icon\" href=\"_img/favicon.ico\">\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"_fancybox/source/jquery.fancybox.css\" />\n	<script type=\"text/javascript\" src=\"_js/jquery-1.9.1.min.js\"></script>\n	<script type=\"text/javascript\" src=\"_fancybox/source/jquery.fancybox.pack.js\"></script>\n	<script type=\"text/javascript\" src=\"_js/script.min.js\"></script>\n</head>\n<body>\n<div id=\"page\">\n\n	<div id=\"masthead\">\n		<header>\n			<div id=\"mh-content\">\n				<!--<h1>scotmatson</h1>-->\n				<img id=\"brandname\" src=\"_img/logo00.gif\" width=\"261\" height=\"106\" alt=\"Scot Matson, styled text\">\n				<form id=\"search\">\n					<input type=\"search\" name=\"search\">\n					<input type=\"submit\" value=\"search\">\n				</form>\n				<nav>\n					<ul>\n						<li id=\"index\"><a href=\"index.html\">home</a></li>\n						<li><a href=\"about.html\">about</a></li>\n						<li><a href=\"http://invsncloud.com.166-78-91-1.mdgnetworks.com/_blog/\">blog</a></li>\n						<li><a href=\"contact.html\">contact</a></li>\n					</ul>\n				</nav>\n			</div><!--mh-content-->\n		</header>\n	</div><!--#masthead-->\n	<div id=\"shutter\">\n		<section>\n				<div class=\"grid\"><a href=\"android.html\"><img width=\"100\" height=\"350\" id=\"android\" src=\"_img/_shutter/droid.jpg\" alt=\"android applications\"></a></div>\n				<div class=\"grid\"><a href=\"art.html\"><img width=\"100\" height=\"350\" id=\"art\" src=\"_img/_shutter/art.jpg\" alt=\"art gallery\"></a></div>\n				<div class=\"grid\"><a href=\"applet.html\"><img width=\"100\" height=\"350\" id=\"applet\" src=\"_img/_shutter/applet.jpg\" alt=\"java applets\"></a></div>\n				<div class=\"grid\"><a href=\"games.html\"><img width=\"100\" height=\"350\" id=\"games\" src=\"_img/_shutter/games.jpg\" alt=\"games\"></a></div>\n				<div class=\"grid\"><a href=\"ios.html\"><img width=\"100\" height=\"350\" id=\"ios\" src=\"_img/_shutter/ios.jpg\" alt=\"iphone applications\"></a></div>\n				<div class=\"grid\"><a href=\"opensource.html\"><img width=\"100\" height=\"350\" id=\"opensource\" src=\"_img/_shutter/opensource.jpg\" alt=\"open source projects\"></a></div>\n				<div class=\"grid\"><a href=\"photos.html\"><img width=\"100\" height=\"350\" id=\"photos\" src=\"_img/_shutter/photos.jpg\" alt=\"photo gallery\"></a></div>\n				<div class=\"grid\"><a href=\"webdesign.html\"><img width=\"100\" height=\"350\" id=\"webdesign\" src=\"_img/_shutter/webdesign.jpg\" alt=\"web design portfolio\"></a></div>\n				<div class=\"grid\"><a href=\"webdevelopment.html\"><img width=\"100\" height=\"350\" id=\"webdevelopment\" src=\"_img/_shutter/webdevelopment.jpg\" alt=\"web developers portfolio\"></a></div>\n		</section>\n	</div><!--shutter-->\n	<div id=\"portfolioContent\"></div>\n	<footer>\n		<p>Copyright 2013 - Matson Design</p>\n		<p>Change Logs <a href=\"docs/index.html\">HTML</a> | <a href=\"docs/style.html\">CSS</a> | <a href=\"docs/js.html\">JavaScript</a></p>\n	</footer>\n</div><!--page-->\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 3385,
+			"file_write_time": 1374800464000000,
+			"settings":
+			{
+				"buffer_size": 3326,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"readme",
+				"ReadmePlease"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 480.0
+	},
+	"console":
+	{
+		"height": 141.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/scot/Documents/web_sites/cit_85/scotmatson.sublime-project",
+		"/home/scot/Documents/lynda_ex/git_esst/Chapter 05/05_02/first_git_project/third_file.txt",
+		"/home/scot/Documents/lynda_ex/git_esst/Chapter 05/05_02/first_git_project/second_file.txt",
+		"/home/scot/Documents/lynda_ex/git_esst/Chapter 05/05_02/first_git_project/first_file.txt",
+		"/home/scot/Documents/lynda_ex/git_esst/Chapter 05/05_02/first_git_project/._third_file.txt",
+		"/home/scot/Documents/lynda_ex/git_esst/Chapter 05/05_02/first_git_project/._second_file.txt",
+		"/home/scot/Documents/lynda_ex/git_esst/Chapter 05/05_02/first_git_project/._first_file.txt",
+		"/home/scot/Documents/lynda_ex/git_esst/Chapter 05/05_01/first_git_project/third_file.txt",
+		"/home/scot/Documents/lynda_ex/git_esst/Chapter 05/05_01/first_git_project/second_file.txt",
+		"/home/scot/Documents/lynda_ex/git_esst/Chapter 05/05_01/first_git_project/first_file.txt",
+		"/home/scot/Documents/Lynda Exercise Files/Ex_Files_GIT_EssT/Exercise Files/Chapter 03/03_03/first_git_project/first_file.txt",
+		"/home/scot/Documents/geekwise/JavaScript/july23/_js/Form.js",
+		"/home/scot/Documents/geekwise/JavaScript/july23/_js/main.js",
+		"/home/scot/Documents/geekwise/JavaScript/formValidator/_css/style.css",
+		"/home/scot/Documents/geekwise/JavaScript/formValidator/_js/Form.js",
+		"/home/scot/Documents/geekwise/JavaScript/formValidator/_js/main.js",
+		"/home/scot/Documents/geekwise/JavaScript/july23/_src/index.html",
+		"/home/scot/Documents/geekwise/JavaScript/july22/_js/main.js",
+		"/home/scot/Documents/geekwise/JavaScript/july22/_src/index.html",
+		"/home/scot/Documents/geekwise/JavaScript/july16/_js/main.js",
+		"/home/scot/Documents/geekwise/JavaScript/july16/_src/index.html",
+		"/home/scot/Documents/geekwise/JavaScript/july22/_css/style.css",
+		"/home/scot/Documents/summer2013/index.html",
+		"/home/scot/Documents/summer2013/polySci2/july17.html",
+		"/home/scot/Documents/summer2013/polySci2/july18.html",
+		"/home/scot/Documents/summer2013/polySci2/july19.html",
+		"/home/scot/Documents/geekwise/JavaScript/july16/_css/style.css",
+		"/home/scot/Documents/geekwise/JavaScript/notes.html",
+		"/home/scot/Documents/geekwise/JavaScript/_js/script.js",
+		"/home/scot/Documents/summer2013/polySci2/july09.html",
+		"/home/scot/Documents/FCC-TA/cit82/_src/contact.html",
+		"/home/scot/Documents/FCC-TA/cit82/_src/resources.html",
+		"/home/scot/Documents/FCC-TA/cit82/_src/week01/howToDos.html",
+		"/home/scot/Documents/FCC-TA/cit82/_css/style.css",
+		"/home/scot/Documents/FCC-TA/cit82/_css/cit82.sublime-project",
+		"/home/scot/Documents/FCC-TA/cit82/_src/week02/blog01.html",
+		"/home/scot/Documents/FCC-TA/cit82/_src/week02/lecture01.html",
+		"/home/scot/Documents/FCC-TA/cit82/_src/week02/howToPrintscreen.html",
+		"/home/scot/Documents/FCC-TA/cit82/_src/week02/yourPhoto.html",
+		"/home/scot/.config/sublime-text-2/Packages/ColorPicker/README.md",
+		"/home/scot/Documents/FCC-TA/cit82/_src/week01/howTo.html",
+		"/home/scot/Documents/FCC-TA/cit82/_src/week01/week01.html",
+		"/home/scot/Documents/FCC-TA/cit82/_src/week01.html",
+		"/home/scot/Documents/FCC-TA/cit82/_src/week01",
+		"/home/scot/Documents/summer2013/polySci2/exam3.html",
+		"/home/scot/Documents/summer2013/polySci2/july11.html",
+		"/home/scot/Documents/summer2013/polySci2/july10.html",
+		"/home/scot/Documents/summer2013/polySci2/july08.html",
+		"/home/scot/.config/sublime-text-2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/home/scot/Documents/summer2013/comm1/july03.html",
+		"/home/scot/Documents/summer2013/polySci2/instructorDocs/july08.html",
+		"/home/scot/Documents/summer2013/polySci2/july3.html",
+		"/home/scot/Documents/summer2013/polySci2/exam2.html",
+		"/home/scot/Documents/summer2013/polySci2/july02.html",
+		"/home/scot/Documents/summer2013/polySci2/july01.html",
+		"/home/scot/Documents/summer2013/polySci2/exam2",
+		"/home/scot/Documents/summer2013/polySci2/july02",
+		"/home/scot/Documents/summer2013/polySci2/june27.html",
+		"/home/scot/Documents/summer2013/comm1/ch15outline.html",
+		"/home/scot/Documents/summer2013/comm1/june26.html",
+		"/home/scot/Documents/summer2013/polySci2/june26.html",
+		"/home/scot/Documents/summer2013/comm1/june17.html",
+		"/home/scot/Documents/summer2013/comm1/june18.html",
+		"/home/scot/Documents/summer2013/comm1/june19.html",
+		"/home/scot/Documents/summer2013/comm1/june20.html",
+		"/home/scot/Documents/summer2013/comm1/ch15.html",
+		"/home/scot/Documents/summer2013/polySci2/exam1.html",
+		"/home/scot/Documents/summer2013/polySci2/june25.html",
+		"/home/scot/Documents/summer2013/polySci2/june24.html",
+		"/home/scot/Documents/summer2013/polySci2/june20.html",
+		"/home/scot/Documents/summer2013/polySci2/june19.html",
+		"/home/scot/Documents/summer2013/polySci2/june18.html",
+		"/home/scot/Documents/summer2013/polySci2/june17.html",
+		"/home/scot/Documents/summer2013/hist11/lectureNotes/mysteryOfRoanoke.html",
+		"/home/scot/Documents/summer2013/hist11/lectureNotes/chapterThree.html",
+		"/home/scot/Documents/summer2013/hist11/ofMillsAndMen.html",
+		"/home/scot/Documents/summer2013/hist11/lectureNotes/lectureTwo.html",
+		"/home/scot/Documents/summer2013/hist11/lectureNotes/lectureOne",
+		"/home/scot/Documents/summer2013/hist11/lectureNotes/introLecture.html",
+		"/home/scot/Documents/summer2013/polySci2/polySciClassNotes.html",
+		"/home/scot/Documents/summer2013/polySci2/ETC/comm1Notes.html",
+		"/home/scot/Documents/summer2013/polySci2/ETC/6.17.html",
+		"/home/scot/.config/sublime-text-2/Packages/GitGutter/README.md",
+		"/home/scot/.config/sublime-text-2/Packages/PlainTasks/Readme.md",
+		"/home/scot/Downloads/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/index.htm",
+		"/home/scot/.config/sublime-text-2/Packages/SideBarEnhancements/readme.md",
+		"/home/scot/Downloads/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/_css/main.css",
+		"/home/scot/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/home/scot/.config/sublime-text-2/Packages/ReadmePlease/ReadmePlease.py",
+		"/home/scot/.config/sublime-text-2/Packages/Theme - Soda/README.md",
+		"/home/scot/.config/sublime-text-2/Packages/Language - English/README_en_US.txt",
+		"/home/scot/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/scot/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/scot/Downloads/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/roux_website.sublime-project",
+		"/home/scot/Desktop/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/index.htm",
+		"/home/scot/Desktop/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/_scripts/SpryTabbedPanels.js",
+		"/home/scot/Desktop/Ex_Files_UaR_SublimeTxt_2/Exercise Files/roux_website/_fonts/DroidSans-webfont.svg",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter05/src/2dArrayPattern.htm",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter04/src/lyrica.htm",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter04/lyrica2.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/blank.htm",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter03/src/alienAttack.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter03/numberToss.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter03/numberGame.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter02/enteringText.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter02/displayConsoleOutput.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter01/src/main.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter01/newStyle.css",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter01/simpleDocument.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter01/absolutePositioning.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter01/floatingElements.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter01/backgroundImages.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter01/classAndId.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter01/class.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter01/id.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter01/styledWebpage.html",
+		"/home/scot/Documents/Game Design with HTML5 & JavaScript/Chapter01/simpleWebpage.html",
+		"/home/scot/Documents/Beginning JavaScript/Chapter15/ch15_examp8.htm",
+		"/home/scot/Documents/Beginning JavaScript/Chapter15/ch15_examp7.htm",
+		"/home/scot/Documents/Beginning JavaScript/Chapter15/ch15_examp6.htm",
+		"/home/scot/Documents/Beginning JavaScript/Chapter15/ch15_examp5.htm",
+		"/home/scot/Documents/Beginning JavaScript/Chapter15/ch15_examp4.htm",
+		"/home/scot/Documents/Beginning JavaScript/Chapter15/ch15_examp3.htm",
+		"/home/scot/Documents/Beginning JavaScript/Chapter15/ch15_examp2_mt.htm",
+		"/home/scot/Documents/Beginning JavaScript/Chapter15/ch15_examp2_p.htm",
+		"/home/scot/Documents/Beginning JavaScript/Chapter15/ch15_examp2_jq.htm",
+		"/home/scot/Documents/Beginning JavaScript/Chapter15/ch15_examp1_jq.htm",
+		"/home/scot/Documents/Beginning JavaScript/Chapter15/mootools.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"start",
+			"h>",
+			"h",
+			"h2",
+			"h1",
+			"/ul class=\"collapse\"",
+			"ul",
+			"/ul class=\"collapse\"",
+			"ul",
+			"/ul class=\"collapse\"",
+			"ul",
+			"h2",
+			"ast",
+			"aft",
+			"em",
+			"strong",
+			"life",
+			"research",
+			"lynda",
+			"fresno",
+			"subway",
+			"roku",
+			"reddit",
+			"youtube",
+			"monkey",
+			"white",
+			"color",
+			"li",
+			"<li>",
+			"student_portal",
+			"header",
+			"1stCity",
+			"D",
+			"option",
+			"1sBrowser",
+			"now",
+			"pls",
+			"subButton",
+			"imgShutter",
+			"preloadShutter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"titsmcgee"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"indwe",
+				"Exercise Files/roux_website/_fonts/DroidSans-webfont.svg"
+			],
+			[
+				"unti",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/scot/Documents/geekwise/JavaScript/gw_js.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true
+}

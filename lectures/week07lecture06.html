@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8" type="text/html">
+	<title>Lynda.com | CIT 85 Tutorial</title>
+
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		width: 70%;
+		min-width: 600px;
+		margin: auto;
+		font-family: sans-serif;
+		background-color: #BCF5A9;
+	}
+	#content {
+		padding: 0px 10px;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+		background-color: #fff;
+	}
+	#banner {
+		text-align: center;
+		margin: 35px 0px 15px;
+	}
+	nav {
+		margin-top: 5px;
+	}
+	nav a {
+		text-decoration: none;
+		letter-spacing: -1px;
+		margin-right: 5px;
+	}
+	a:link {
+		color: #0066CC;
+	}
+	a:visited {
+		color: #0000AA;
+	}
+	a:hover {
+		text-decoration: underline;
+		background-color: #BCF5A9;
+		color: black;
+	}
+	a:active {
+		text-shadow: 0px 0px 2px #000;
+	}
+	.newSubject {
+		margin: 5px 0px;
+	}
+	section h1 {
+		text-decoration: underline;
+		font-size: 1.7em;
+	}
+	article h2 {
+		font-size: 1.3em;
+		margin-top: 5px;
+	}
+	footer {
+		margin-top: 5px;
+		text-align: right;
+		font-size: 0.9em;
+	}
+	#page > footer {
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+<div id="page">
+	<header id="banner">
+		<h1>CSS Fundamentals</h1>
+		<nav>
+			Page 1<span>|</span>
+			<a href="http://invsncloud.com.166-78-91-1.mdgnetworks.com/lectures/week8lecture7.html">Page 2</a><span>|</span>
+			<!--<a href="">Page 3</a>-->
+			<br>
+			<a href="#introduction">Introduction</a><span>|</span>
+			<a href="#cssbasics">CSS&nbsp;Basics</a><span>|</span>
+			<a href="#cssspecifications">CSS&nbsp;Specifications</a><span>|</span>
+			<a href="#commoncssconcepts">Common&nbsp;CSS&nbsp;Concepts</a><span>|</span>
+			<a href="#cssresources">CSS&nbsp;Resources</a><span>|</span>
+		</nav>
+	</header><!--id="banner"-->
+	<hr>
+	<div id="content">
+		<section class="newSubject">
+			<header>
+				<h1 id="introduction">Introduction</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Welcome</h2>
+					<p>Introduction to CSS Fundamentals presented by James Williamson. The course will encompasses the syntax, history, and application of CSS.</p>
+				</header>
+			</article>
+			<article>
+				<header>
+				<h2>Who is this course for?</h2>
+				<p>This course is designed to give the new user a greater familiarzation and understanding of CSS rather than provide a hands on approach.</p>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Introduction-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="cssbasics">CSS Basics</h1>
+			</header>
+			<article>
+				<header>
+					<h2>What is CSS?</h2>
+				</header>
+				<p>Cascading style sheets (CSS) is a style sheet language developed to control the presentation of mark-up language documents like HTML. By separating the style from the structure you can easily change the look of a web site without altering the structure. This modularized approach is also seen in other languages such as JavaScript, PHP, and SQL. The term 'cascade' refers to the way CSS affects the pages it's to applied to, being, that is applies styles from the top down, influencing all the elements selected for style.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Default browser styles</h2>
+				</header>
+				<p>Before HTML authors were allowed to control CSS styles, web browsers had default stylesheets that controlled the presentation of all web sites. When a user codes CSS styles they are actually overriding these default styles to present a web site how they want it to look. Despite this level of control, the end-user actually has the ability to alter all layout elements of a page through the user of their browser. The reason for this is to increase accessibility and make sites which may not work in all browsers render correctly.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Syntax</h2>
+				</header>
+				<p>CSS styles are made up of two parts, the selector and the declaration. The selector tells the browser which element in the document should be styled. When you attempt to attempt to target specific elements though selectors can become fairly complex. The declaration is a rule made up of two parts made up of two parts separated by a colon, the propery and the value. The propery designates the type of styling which is to occur and the value is the style itself.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Basic selector types</h2>
+				</header>
+				<p>A global element will select every type of element type in an HTML document. A class selector, similar to an ID can be used to directly select labeled HTML elements. A class represents a group of elements while an ID is used for a single element. If a selector uses multiple elements separated by white space it is called a descenedent selector. A desdcendent selector will target all similar child elements of a parent tag. Finally, with the use of a comma, multiple selectors can be grouped together.</p>
+			</article>
+			<article>
+				<header>
+					<h2>How CSS works with HTML structure</h2>
+				</header>
+				<p>It's important to understand the relationship between HTML and CSS.  First, well structured HTML is essential to easily apply CSS styles. Next, when using classes and ID's, they should be given descriptive values and not used arbitrarily. Also, consistent HTML structure should be used across multiple HTML documents. Finally when constructing HTML, focusing on the meaning behind the text being structured will help you easily understand your code and also apply effective CSS styling.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Authoring options</h2>
+				</header>
+				<p>There are three locations CSS styles can be placed when building a web site. An external style sheet is a text file with a .css extension that can be applied to multiple HTML files and is a highly efficient way of designing sites. You apply this type of stylesheet by using a link tag in the head of an HTML document. Embedded styles on the other hand involve placing styles directly in the head of an HTML document and can only be applied to a single HTML document, they are more commonly used to override external styles. Lastly, in-line styles is performed by directly placing css style within the HTML elements themselves. This is a discouraged practice and is very inefficient.</p>
+			</article>
+			<article>
+				<header>
+					<h2>How browsers apply styles</h2>
+				</header>
+				<p>Browsers render CSS styles by reading the selectors from right to left. Because of this it is important to look at your code and think about more efficient ways to target specific elements. Since CSS stylsheets cascade from top to bottom, the last rule applied to an element in a CSS document will be the rule applied. Inheritance in CSS refers to how each child element will receieve the style rules applied to their parent elements. Not all rules will be inherited though and it is good practice to memorize the ones that don't. In the event of a conflicting application of a CSS style, predesignated specificity based upon a weighted score that makes up the selector.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Browser rendering differences</h2>
+				</header>
+				<p>The reason code appears differently in various browsers comes down to rendering engines used in a browser. The four most common rendering engines are Trident, Presto, Gecko, and WebKit. Just as browsers are continually being updated, so are rendering engines. Fortunately as web technologies have evolved browsers have become standardized based upon agreed upon regulations by the W3C, and The Web Standards Project. Some inconsistencies still remain but with the release of each new browser version this is becoming less common.</p>
+			</article>
+			<footer>
+				<a href="#banner">Return so site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of CSS Basics-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="cssspecifications">CSS Specifications</h1>
+			</header>
+			<article>
+				<header>
+					<h2>A brief history of CSS</h2>
+					<p>When browsers first evolved, web pages were styled by the default styles designated by the browsers being used. CSS did not yet exist. When CSS was finally released, specifications were placed but were never fully implemented by any one browser and made it very difficult for CSS to gain any popularity among designers and developers. It wasn't until CSS 2.1 that browser manufacturers did not begin to get serious about adopting CSS standards. Unfortunately the W3C took six years to finally reach a recommended standard. Because of this, by the time CSS 2.1 was completed technologies had evolved which demanded new ways of structuring and styling web sites. The latest release of CSS, CSS3 is taking a new approach by splitting up the standards to allow CSS to gradually evolve over time rather than using the old model of a single all emcompassing standard.</p>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>The current state of CSS</h2>
+				</header>
+				<p>This video covers the web site which displays the current CSS specifications and also dicusses the hierarchy which the W3C uses to make their recommendations.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Exploring specifications</h2>
+				</header>
+				<p>A walkthrough video on the W3C website CSS specifications. Covers how to access latest version, table of contents, and proper use.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Reading specifications</h2>
+				</header>
+				<p>Reading through specifications can be quite a tedious process; the reason for this is that specifications are written for implementors. The specification document consists of, abstract: purpose of the specification, status of this document: whats currently being worked on and next steps, table of contents: navigation, normative references: detailed information written specifically for implementors, index: overview of specifications.</p>
+
+				<p>Digging a little deeper, while reading through an individual property specification you will find, media: specifies device support, applies to: element support, inherited: if nested elements will adopt values, value: describes how to write the syntax. Proper examples of implentation are given along with invalid use.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Checking browser support</h2>
+				</header>
+				<p>When designing web sites the most effective way to understand browser support is to perform tests yourself. This means not only testing in every browser, but also every platform as well. Fortunately there are a few web sites that help perform this evaluation without having to buy multiple cell phones, tablets, or download every browser in existance. For some older browsers that lack full support of newer CSS features there are also web sites that give helpful information on how work-a-round these older rendering engines to achieve the same results your looking for in a newer browser.</p>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Basic Page Design-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="commoncssconcepts">Common CSS Concepts</h1>
+			</header>
+			<p>
+			<article>
+				<header>
+					<h2>Working with fonts</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Formatting text</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>What is the box model?</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Margins and padding</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Borders</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Backgrounds</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Color</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Common units of measurement</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Element positioning</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Floats</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Basic layout concepts</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Media types and media queries</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>What is CSS3</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Vendor prefixes</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>What is a CSS reset</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Formatting Page Content-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="cssresources">CSS Resources</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Using frameworks and grids</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Popular frameworks</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Preprocessors</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Editors</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Online tools</h2>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Additional resources</h2>
+				</header>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Creating Links-->
+
+		<hr>
+	</div><!--id="content"-->
+	<footer>&copy; 2013 MatsonDesign</footer>
+</div><!--id="page"-->
+</body>
+</html>

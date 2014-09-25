@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+	<title>Scot Matson | JavaScript Change Log</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="Scot Matson">
+	<meta name="keywords" content="JavaScript, version, update, change, log">
+	<meta name="description" content="JavaScript version information">
+	<meta name="robots" content="index, follow">
+	<link rel="stylesheet" type="text/css" href="../_css/style.css">
+	<link rel="shortcut icon" href="../_img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="../_fancybox/source/jquery.fancybox.css" />
+	<script type="text/javascript" src="../_js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../_fancybox/source/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="../_js/script.js"></script>
+</head>
+<body>
+<div id="page">
+	<div id="masthead">
+		<header>
+			<div id="mh-content">
+				<!--<h1>scotmatson</h1>-->
+				<img id="brandname" src="../_img/logo00.gif" alt="Scot Matson, styled text">
+				<form id="search">
+					<input type="search" name="search">
+					<input type="submit" value="search">
+				</form>
+				<nav>
+					<ul>
+						<li><a href="../index.html">home</a></li>
+						<li><a href="../about.html">about</a></li>
+						<li><a href="../http://invsncloud.com.166-78-91-1.mdgnetworks.com/_blog/">blog</a></li>
+						<li><a href="../contact.html">contact</a></li>
+					</ul>
+				</nav>
+			</div><!--mh-content-->
+		</header>
+	</div><!--#masthead-->
+
+	<div id="content">	
+	<article>
+		<header>
+			<h1>05/13/2013</h1>
+		</header>
+		<ul class="log">
+			<li>No existing change log has been created for JavaScript files, this is somewhat overdue. To date this is the functionality of the web site. Updates will be posted as future development occurs.</li>
+			<br/>
+			<li>On the index page I have used jQuery to precache multiple image files which have been stored in an Array value. These files are then used within a secondary navigational tool named the 'shutter'. When the user hovers the mouse over any one of these navigational elements a call is made to the Array to swap out images, giving a shaded appearance to notify the user that this is an interactive link. When the mouse cursor is removed from a navigational layer the original colored image will return. As these image files have been proven to be somewhat larger than desired, a CSS alternative will be looked into for future development.</li>
+			<br/>
+			<li>When the user clicks upon a shutter navigational element the default behavior has been changed using an AJAX function. Rather than following the link to a new browser window or tab, the desired content will now be served up on the index page below the shutter navigation. Since the shutter is rather cumbersome, I still need to develop a minimized version of the shutter so it becomes more obvious what has occurred. I'm assuming that for some users, the AJAX call may be overlooked as it falls rather subtely towards the bottom of the page.</li>
+			<br/>
+			<li>For displaying portfolio content, at this time I have decided to utilize the FancyBox plug-in. This only example of it's use at this time is noted on the Web Design page. Upon user interaction with the jpeg a pop-up window will open up and function as an iFrame allowing the user to browse alternate sites I have developed without to open additional windows or tabs. I'm considering using this feature for images in the future and allowing alternate web sites to open separately. One should notice that the view port is rather small and may not display all available content.</li>
+			<br/>
+			<li>Finally, quite of bit of work has gone into developing the forms on this web site. First off, when the page is loaded, the cursor is now automatically placed into the first form field. This action is not limited to the contact page but the contact page happens to be the only page which utilizes this function. I'd like to integrate a more obvious visual indicator in the future such as a blue border. It isn't necessarily obvious that the cursor is present at this time.</li>
+			<br/>
+			<li>When making a submition, the submit button will become inactive and notify the user that the information is being send to the server.</li>
+			<br/>
+			<li>The validator plug-in has been used to validate user form entries. The only required fields at this time include a name and eMail address. As the site begins to grow and include more content the form will most likely be redesigned for client-business interactions.</li>
+			<br/>
+			<li>To date, each JavaScript entry has been implented with jQuery code, inspired by the book JavaScript &amp; jQuery: The Missing Manual, by David Sawyer McFarland</li>
+		</ul>
+	</article>
+	</div><!--content-->
+
+	<footer>
+		<p>Copyright 2013 - Matson Design</p>
+	</footer>
+</div><!--page-->
+</body>
+</html>

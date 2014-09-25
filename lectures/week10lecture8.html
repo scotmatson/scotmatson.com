@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8" type="text/html">
+	<title>Lynda.com | CIT 85 Tutorial</title>
+
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		width: 70%;
+		min-width: 600px;
+		margin: auto;
+		font-family: sans-serif;
+		background-color: #BCF5A9;
+	}
+	#content {
+		padding: 0px 10px;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+		background-color: #fff;
+	}
+	#banner {
+		text-align: center;
+		margin: 35px 0px 15px;
+	}
+	nav {
+		margin-top: 5px;
+	}
+	nav a {
+		text-decoration: none;
+		letter-spacing: -1px;
+		margin-right: 5px;
+	}
+	a:link {
+		color: #0066CC;
+	}
+	a:visited {
+		color: #0000AA;
+	}
+	a:hover {
+		text-decoration: underline;
+		background-color: #BCF5A9;
+		color: black;
+	}
+	a:active {
+		text-shadow: 0px 0px 2px #000;
+	}
+	.newSubject {
+		margin: 5px 0px;
+	}
+	section h1 {
+		text-decoration: underline;
+		font-size: 1.7em;
+	}
+	article h2 {
+		font-size: 1.3em;
+		margin-top: 5px;
+	}
+	footer {
+		margin-top: 5px;
+		text-align: right;
+		font-size: 0.9em;
+	}
+	#page > footer {
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+<div id="page">
+	<header id="banner">
+		<h1>Foundations of Programming: Fundamentals</h1>
+		<nav>
+			<a>Page 1</a><span>|</span>
+			<a href="http://invsncloud.com.166-78-91-1.mdgnetworks.com/lectures/week11lecture09.html">Page 2</a><span>|</span>
+			<a href="http://invsncloud.com.166-78-91-1.mdgnetworks.com/lectures/week12lecture10.html">Page 3</a><!--<span>|</span>
+			<a>Page 4</a>-->
+			<br>
+			<a href="#introduction">Introduction</a><span>|</span>
+			<a href="#programmingbasics">Programming Basics</a><span>|</span>
+			<a href="#coreprogrammingsyntax">Core Programming Syntax</a><span>|</span>
+			<a href="#variablesanddatatypes">Variables and Data Types</a><!--<span>|</span>
+			<a href="#writingconditionalcode">Writing Conditional Code</a><span>|</span>
+			<a href="#modularcode">Modular Code</a><span>|</span>
+			<a href="#iteration:writingloops">Iteration: Writing Loops</a><span>|</span>
+			<a href="moreaboutstrings">More About Strings</a><span>|</span>
+			<a href="collections">Collections</a><span>|</span>
+			<a href="programmingstyle">Programming Style</a><span>|</span>
+			<a href="inputandoutput">Input and Output</a><span>|</span>
+			<a href="whenthingsgowrong">When Things Go Wrong</a><span>|</span>
+			<a href="introductiontoobjectorientation">Introduction to Object Orientation</a><span>|</span>
+			<a href="advancedtopics">Advanced Topics</a><span>|</span>
+			<a href="exploringthelanguages">Exploring the Languages</a><span>|</span>
+			<a href="conclusion">Conclusion</a>-->
+		</nav>
+	</header><!--id="banner"-->
+	<hr>
+	<div id="content">
+		<section class="newSubject">
+			<header>
+				<h1 id="introduction">Introduction</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Welcome</h2>
+					<p>Simon Allardice gives a brief course introduction of the course material. This course is applicable to all programming languages. It is designed to provide an overview of programming concepts.</p>
+				</header>
+			</article>
+			<article>
+				<header>
+				<h2>Making the most of this course</h2>
+				<p>Simon explains who this course will benefit, hardware and software requirements, and that this course is targetted to all demographics and begins with the understanding that the student has never been exposed to programming concepts.</p>
+				</header>
+			</article>
+			<article>
+				<header>
+					<h2>Using the exercise files</h2>
+					<p>Explanation on how to access and use the exercise files that coincide with the video lectures. Coding along with the instructor will help the student get the most out of the course material.</p>
+				</header>
+				<p></p>
+			</article>
+			<footer>
+				<a href="#banner">Return so site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Introduction-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="programmingbasics">Programming Basics</h1>
+			</header>
+			<article>
+				<header>
+					<h2>What is programming?</h2>
+				</header>
+				<p>&quot;A computer program is a set of instructions...&quot; while the art of proramming is taking a larger idea and breaking it apart into individual steps. Programming is as simple as a step by step series of directions which linearly guide a computer from point A to point B and using a programming language to write code to communicate with the computer.</p>
+
+				<p>Programming languages use statements to form instructions for the computer to interpret. Statements in a computer language are similar to sentences in the English language. While statements vary from language to language, the statements all tend to function the same by using a few symbols or words to state a simple task.</p>
+			</article>
+			<article>
+				<header>
+					<h2>What is a programming language?</h2>
+				</header>
+				<p>Machine code is the foundation of programming languages. It varies from CPU to CPU and consists of millions of lines of code depicted by a series of letters and numbers that is intended to be read by computers rather than humans. Programming languages used my people help bridge the gap between the machine code computers use and the languages used by humans, also known has source code.</p>
+
+				<p>Since programming languages have been used, hundreds have been developed, but with each innovation only a handful of languages remain popular at any given time. Programming languages can be classified as high level programming languages and low level programming languages. A high level programming language tends to be easier to learn and apply as it uses statements which closely resemble modern day languages, they also are easier to use across multiple platforms. The downside to high level programming languages is that they often create slower applications due to the fact that they require a greater amount of processing power to convert them into machine code. In contrast, a lower level programming language uses more abstract syntax and tends to operate more efficiently. Assembly language is the lowest level of programming language used by people, a step above machine code.
+
+				<p>To start writing any programming statement, three things must be understood. First, how to start writing the source code, secondly, where the source code will be translated into machine code, and third, how do we actually execute the program.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Writing source code</h2>
+				</header>
+				<p>Programming languages are written using nothing more than a plain text file with an extension which correlates with the programming language used such as .html, .ruby, or .java. When compared, many statements in programming languages are very similar if not exacty the same. This is often due to a shared history in their development.</p>
+
+				<p>Multiple applications exist to assist programmings in the development of source code. Programmer's text editors add such features as line numbering, highlighted syntax, auto-completion, syntax checking. Integrated development environments are larger programs which act as text editors but offer many more features. They are generally used when you begin concetrating your code to one particular type of area.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Compiled and interpreted languages</h2>
+				</header>
+				<p>There are two ways to transform source code into machine code, compiling, or intepreting. A compiled language uses a program called a compiler which goes through the source code and saves a separate file which is written in machine code which is to be used by the computer. Interpreter's on the other hand work on the fly. They process code line by line and do not save it as a separate machine code file.</p>
+
+				<p>Compiled code can be easily given to other users and runs more efficiently. Although it can only be used by the platform is was written for. Interpretive languages are slower, and the source code tends to be public, but they are able to be used on multiple platforms.</p>
+
+				<p>Although the most common way to convert a language to machine code is either through the afore mentioned methods, a third way of converting source code into machine code does exist. Byte code combines the best qualities of compiled languages and interpretive languages. This is accomplished by partially compiling a language into an intermediate language which is later converted machine language by an interpreter when the application is executed. This is sometimes refered to Just-In-Time compilation or &quot;JIT code&quot;.</p>
+			</article>
+			<footer>
+				<a href="#banner">Return so site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Programming Basics-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="coreprogrammingsyntax">Core Programming Syntax</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Why JavaScript</h2>
+				</header>
+				<p>JavaScript was chosen as the core language for this course do to its accessibility by users with little to no experience with programming. It also requires no additional software to be downloaded. JavaScript is a language that works with and manipulates websites, it was written specifically for that reason. JavaScript has no affiliation with Java and is sometimes referred as a scripting language. A scripting language is a programming language that is embedded inside another application, in this case, a web browser.</p>
+
+				<p>Scripting language tend to be more limited than general purpose programming languages but are also more easily learned. JavaScript is an interpreted language which is translated by the web browsers JavaScript rendering engine as the website loads. When writing JavaScript code it is important to remember that it is a case sensitive language and close attention to detail is a must. This case sensitivity along with other subtle syntax clues (such as curly braces and semi-colons) show a relationship with the C programming language from which JavaScript was derived.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Creating your first program in JavaScript</h2>
+				</header>
+				<p>When programming JavaScript we only need to worry about the website and the JavaScript it is interpreting. All other layers (computer, operating system, web browser) will take care of the rest without our interaction. The remainder of this tutorial introduces the obligitory &quot;Hello world!&quot; statement through JavaScript by using the alert() function.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Requesting input</h2>
+				</header>
+				<p>Computer programs are all about input and output. JavaScript focuses primarily on the input and output of a web page. In this example we have created a prompt() function and assigned it to the variable name. When the output appears in the browser window the user may then enter in a String which is then assigned to the variable name(the browsers interpretation of the code will not proceed from this point on until it has received input from the user). Next, we have concatenated the variable name with a String which in turn is then shown in the web browser by once again using the alert() function. It is important to recognize the data types in this example. Here, we see that the program asked for a String, receieved a String, and output a String. If an incorrect data type were to have been given in place of the String the JavaScript interpreter may have resulted in an error and would not have been able to complete the program. It is important to be attentive to the data types being used because of this and know how to convert data types if there is a conflict.</p>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Core Programming Syntax-->
+
+		<section class="newSubject">
+			<header>
+				<h1 id="variablesanddatatypes">Variables and Data Types</h1>
+			</header>
+			<article>
+				<header>
+					<h2>Introduction to variables and data types</h2>
+				</header>
+				<p>When we write programs we are creating types of data that we need to track. This data is stored in a variable which is a named entity which acts like a container for a data value. In JavaScript a variable is declared by using &quot;var&quot; followed by the variable name that we choose. These variable names must be written as one word with no spaces included, they may consist of letters, numbers, dollar signs, or underscores, although they should begin with a letter.</p>
+
+				<p>Variables can be created without assigning it any properties, this causes the computer to dedicate a piece of its memory to this variable, assuming that something will be stored there later on. Assigning data to a variable is as simple as typing the name of the variable and following it with an equals sign a.k.a. the assignment operator, and then typing a character, String, or number. This operation can occur on a single line or multiple lines. When a String is assigned to a variable, remember that JavaScript is a case-sensitive language.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Understanding strong, weak, and duck-types languages</h2>
+				</header>
+				<p>Most programming languages require not only the declaration of a variable but the data type as well. Data types include Strings, Chars, Doubles, Ints, Booleans, Floats, etc... A language with these requirements is referred to as a strongly typed language. JavaScript is a weakly typed language. This means when a variable is declared, we do not need to declare the data type, it will look at our code and figure out what we mean on its own. While their are a number of different data types, JavaScript uses only numbers, Strings, and Boolean values. While a weakly typed language seems like it would be easier to use, the major disadvantage is that we don't always know right away how the computer is referring to a specific data type; this may ultimately lead to errors in our programs.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Working with numbers</h2>
+				</header>
+				<p>Brief introduction on the history and origin of computing and why computers work primarily with numbers, followed by coding examples. Simon covers how we make commands for the computer to follow, the assignment operator which gives a value to our variable, and also that the last assigned value for a variable is the only stored memory, previously assigned values are forgotten. Finally, a quick leeway into the next segment by mentioning the usage of quotations to differentiate between a number and a string.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Using characters and strings</h2>
+				</header>
+				<p>Anytime we contain data in a set a quotations we are creating a String. Double quotes or single quotes are okay to use but cannot be mixed with one another. We may contain a value within double quotes and use single quotes within the actual data itself or visa versa. If we require the use of double quotes with a set of double quotes we must use an escape character to tell the computer not to prematurely end the String. This is performed by placing a backwards slash up against the value we wish to nullify.</p>
+
+				<p>Various functions exist which let us find out information about our data. With Strings for instance, by typing the name of the variable followed by the method length such as name.length, this will return the number of characters within the String.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Working with operators</h2>
+				</header>
+				<p>Different types of operators are used to assign values to variables or make comparisons or calculations between values. A single equals sign is the assignment operator and places the data to the right of the equals sign and assigns its value to the variable located on the left of the equals sign. When performing calculations we may use + for addition, - for subtraction, * for multiplication, and / for division. Programming languages follow the same conventions as the mathematical order of operations by performing * and / calculations prior to + and - calculations. If we wish to override this precedence parenthesis may be used to indicate &quot;do this first&quot;.</p>
+
+				<p>Since working with numbers is a fairly common task when writing code, a number of shorthand notations exist to make these tasks more easily performed. By placing a mathematical operative sign followed by the assignment operator such as +=, we are stating that we want the value to the right to be added to the value on the left. This notation is also true of -, *, and /. Lastly, the increment and decrement operator are used to increase or decrease an integer by &quot;1&quot;. This is commonly used when writing loops. To write this code you first use the name of your variable, followed by a ++ to increment, or -- to decrement.
+			</article>
+			<article>
+				<header>
+					<h2>Properly using white space</h2>
+				</header>
+				<p>JavaScript, similar to all programming languages, ignores whitespace. It has no impact on the behavior of the code whatsoever. We can write code as compact or expanded as much as we'd like but we must ensure that spaces do occur between different elements of a statement so the computer, such that var b=2 does not equal varb=2 as the computer would read this as varb rather than var b. The only two places that whitespace matters is in the elements of code themselves and also within Stirngs, otherwise whitespace is used for nothing more than readability. Simon concludes this segment by introducting the \n escape character to create a line break and also gives an example of concatenation.</p>
+			</article>
+			<article>
+				<header>
+					<h2>Adding comments to code for human understanding</h2>
+				</header>
+				<p>In JavaScript commenting out lines of code or adding notation is performed by using // for single lines or /*for block of code*/. Commenting is useful for debugging code, temporarily removing chunks of code when testing, or just to add version control and explanation to help us remember what various and programs do.</p>
+			</article>
+			<footer>
+				<a href="#banner">Return to site navigation.</a>
+			</footer>
+		</section><!--class="newSubject"-->
+		<!--End of Variables and Data Types-->
+		<hr>
+	</div><!--id="content"-->
+	<footer>&copy; 2013 MatsonDesign</footer>
+</div><!--id="page"-->
+</body>
+</html>
